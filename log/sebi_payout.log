@@ -1,0 +1,241 @@
+2025-07-16 01:04:29 - Starting SEBI payout process...
+/data/data/com.termux/files/usr/bin/python3: No module named config.files.sebi_payout
+2025-07-16 01:04:29 - ERROR: Payout script failed
+2025-07-16 01:05:39 - Starting SEBI payout process...
+/data/data/com.termux/files/usr/bin/python3: No module named config.files.sebi_payout
+2025-07-16 01:05:39 - ERROR: Payout script failed
+2025-07-17 22:39:12 - Starting SEBI payout process...
+Date: 2025-07-17
+Decision: SKIP
+Reason: Outside trading hours
+----------------------------------------
+2025-07-17 22:39:15 - SUCCESS: payout script completed
+2025-07-17 22:39:18 - SEBI payout process finished
+2025-07-17 22:53:29 - Starting SEBI payout process...
+Date: 2025-07-17
+Decision: SKIP
+Reason: Outside trading hours
+----------------------------------------
+2025-07-17 22:53:32 - SUCCESS: payout script completed
+2025-07-17 22:53:35 - SEBI payout process finished
+2025-07-17 22:56:00 - Starting SEBI payout process...
+Date: 2025-07-17
+Decision: SKIP
+Reason: Outside trading hours
+----------------------------------------
+2025-07-17 22:56:04 - SUCCESS: payout script completed
+2025-07-17 22:56:04 - SEBI payout process finished
+2025-07-17 22:57:00 - Starting SEBI payout process...
+Date: 2025-07-17
+Decision: SKIP
+Reason: Outside trading hours
+----------------------------------------
+2025-07-17 22:57:03 - SUCCESS: payout script completed
+2025-07-17 22:57:03 - SEBI payout process finished
+2025-07-17 22:58:00 - Starting SEBI payout process...
+Date: 2025-07-17
+Decision: SKIP
+Reason: Outside trading hours
+----------------------------------------
+2025-07-17 22:58:03 - SUCCESS: payout script completed
+2025-07-17 22:58:03 - SEBI payout process finished
+2025-07-18 00:43:57 - Starting SEBI payout process...
+Date: 2025-07-18
+Decision: SKIP
+Reason: Outside trading hours
+----------------------------------------
+2025-07-18 00:44:01 - SUCCESS: payout script completed
+2025-07-18 00:44:04 - SEBI payout process finished
+2025-07-18 00:44:16 - Starting SEBI payout process...
+Date: 2025-07-18
+Decision: SKIP
+Reason: Outside trading hours
+----------------------------------------
+2025-07-18 00:44:21 - SUCCESS: payout script completed
+2025-07-18 00:44:23 - SEBI payout process finished
+2025-07-19 00:20:34 - Starting SEBI payout process...
+Date: 2025-07-19
+Decision: SKIP
+Reason: Outside trading hours
+----------------------------------------
+2025-07-19 00:20:38 - SUCCESS: payout script completed
+2025-07-19 00:20:40 - SEBI payout process finished
+2025-07-21 09:36:24 - Starting SEBI payout process...
+Date: 2025-07-21
+Decision: INFO
+Reason: Pending: [], Bought: []
+----------------------------------------
+Date: 2025-07-21
+Decision: FAIL
+Reason: Buy unconfirmed
+Balance: 151020.0
+Quantity: 150
+----------------------------------------
+2025-07-21 09:36:41 - SUCCESS: payout script completed
+2025-07-21 09:36:43 - SEBI payout process finished
+2025-07-21 18:13:00 - Starting SEBI payout process...
+Date: 2025-07-21
+Decision: SKIP
+Reason: Outside trading hours
+----------------------------------------
+2025-07-21 18:13:03 - SUCCESS: payout script completed
+2025-07-21 18:13:06 - SEBI payout process finished
+2025-07-22 18:29:03 - Starting SEBI payout process...
+Date: 2025-07-22
+Decision: SKIP
+Reason: Outside trading hours
+----------------------------------------
+2025-07-22 18:29:06 - SUCCESS: payout script completed
+2025-07-22 18:29:09 - SEBI payout process finished
+2025-07-25 15:00:00 - Starting SEBI payout process...
+Date: 2025-07-25
+Decision: INFO
+Reason: Pending: ['2025-07-21'], Bought: []
+----------------------------------------
+Date: 2025-07-25
+Decision: SKIP
+Reason: Outside buy window
+----------------------------------------
+2025-07-25 15:00:03 - SUCCESS: payout script completed
+2025-07-25 15:00:06 - SEBI payout process finished
+2025-07-26 15:00:00 - Starting SEBI payout process...
+Date: 2025-07-26
+Decision: INFO
+Reason: Pending: ['2025-07-21'], Bought: []
+----------------------------------------
+Date: 2025-07-26
+Decision: SKIP
+Reason: Outside buy window
+----------------------------------------
+2025-07-26 15:00:03 - SUCCESS: payout script completed
+2025-07-26 15:00:07 - SEBI payout process finished
+2025-07-27 15:00:00 - Starting SEBI payout process...
+Date: 2025-07-27
+Decision: INFO
+Reason: Pending: ['2025-07-21'], Bought: []
+----------------------------------------
+Date: 2025-07-27
+Decision: SKIP
+Reason: Outside buy window
+----------------------------------------
+2025-07-27 15:00:04 - SUCCESS: payout script completed
+2025-07-27 15:00:07 - SEBI payout process finished
+2025-07-28 15:00:00 - Starting SEBI payout process...
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/data/data/com.termux/files/home/TR3X/sebi_payout.py", line 261, in <module>
+    main()
+  File "/data/data/com.termux/files/home/TR3X/sebi_payout.py", line 252, in main
+    total, qty, result = execute_buy(api, funds, date_str)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/TR3X/sebi_payout.py", line 153, in execute_buy
+    buy_price = current_price + PRICE_PREMIUM
+                                ^^^^^^^^^^^^^
+NameError: name 'PRICE_PREMIUM' is not defined
+Date: 2025-07-28
+Decision: INFO
+Reason: Pending: ['2025-07-21'], Bought: []
+----------------------------------------
+2025-07-28 15:00:04 - ERROR: payout script failed
+2025-07-28 15:00:06 - SEBI payout process finished
+2025-07-29 11:01:23 - Starting SEBI payout process...
+Date: 2025-07-29
+Decision: INFO
+Reason: Pending: ['2025-07-21'], Bought: []
+----------------------------------------
+Date: 2025-07-29
+Decision: FAIL
+Reason: Order rejected by exchange
+Balance: 151020.0
+Quantity: 150
+----------------------------------------
+Date: 2025-07-29
+Decision: FAIL
+Reason: Order rejected by exchange
+Balance: 151020.0
+Quantity: 150
+----------------------------------------
+2025-07-29 11:01:29 - SUCCESS: payout script completed
+2025-07-29 11:01:32 - SEBI payout process finished
+2025-07-29 15:00:00 - Starting SEBI payout process...
+Date: 2025-07-29
+Decision: INFO
+Reason: Pending: ['2025-07-21', '2025-07-29'], Bought: []
+----------------------------------------
+Date: 2025-07-29
+Decision: BUY
+Reason: Filled at 1000.0
+Balance: 151020.0
+Quantity: 150
+Amount: 150000.0
+----------------------------------------
+2025-07-29 15:00:04 - SUCCESS: payout script completed
+2025-07-29 15:00:07 - SEBI payout process finished
+2025-07-30 15:00:00 - Starting SEBI payout process...
+Date: 2025-07-30
+Decision: INFO
+Reason: Pending: ['2025-07-29'], Bought: ['2025-07-21']
+----------------------------------------
+Date: 2025-07-30
+Decision: SKIP
+Reason: Already bought this month
+----------------------------------------
+2025-07-30 15:00:03 - SUCCESS: payout script completed
+2025-07-30 15:00:06 - SEBI payout process finished
+2025-07-31 15:00:00 - Starting SEBI payout process...
+Date: 2025-07-31
+Decision: INFO
+Reason: Pending: ['2025-07-29'], Bought: ['2025-07-21']
+----------------------------------------
+Date: 2025-07-31
+Decision: SKIP
+Reason: Already bought this month
+----------------------------------------
+2025-07-31 15:00:03 - SUCCESS: payout script completed
+2025-07-31 15:00:06 - SEBI payout process finished
+2025-08-26 15:00:00 - Starting SEBI payout process...
+Date: 2025-08-26
+Decision: INFO
+Reason: Pending: [], Bought: []
+----------------------------------------
+Date: 2025-08-26
+Decision: SKIP
+Reason: Funds < 1000
+Balance: 991.41
+----------------------------------------
+2025-08-26 15:00:07 - SUCCESS: payout script completed
+2025-08-26 15:00:10 - SEBI payout process finished
+2025-08-29 15:00:00 - Starting SEBI payout process...
+Date: 2025-08-29
+Decision: INFO
+Reason: Pending: ['2025-08-26'], Bought: []
+----------------------------------------
+Date: 2025-08-29
+Decision: SKIP
+Reason: Outside buy window
+----------------------------------------
+2025-08-29 15:00:03 - SUCCESS: payout script completed
+2025-08-29 15:00:06 - SEBI payout process finished
+2025-08-30 15:00:00 - Starting SEBI payout process...
+Date: 2025-08-30
+Decision: INFO
+Reason: Pending: ['2025-08-26'], Bought: []
+----------------------------------------
+Date: 2025-08-30
+Decision: SKIP
+Reason: Outside buy window
+----------------------------------------
+2025-08-30 15:00:03 - SUCCESS: payout script completed
+2025-08-30 15:00:05 - SEBI payout process finished
+2025-08-31 15:00:00 - Starting SEBI payout process...
+Date: 2025-08-31
+Decision: INFO
+Reason: Pending: ['2025-08-26'], Bought: []
+----------------------------------------
+Date: 2025-08-31
+Decision: SKIP
+Reason: Outside buy window
+----------------------------------------
+2025-08-31 15:00:03 - SUCCESS: payout script completed
+2025-08-31 15:00:06 - SEBI payout process finished

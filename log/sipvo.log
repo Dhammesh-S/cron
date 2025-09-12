@@ -1,0 +1,89 @@
+2025-08-18 18:34:01 - Starting SIPVO process with args:  --test
+2025-08-18 18:34:03,949 - INFO - Running in TEST MODE - no real orders will be placed
+2025-08-18 18:34:03,949 - INFO - Today (18) is NOT a SIP day: SIPVO skipping trade execution.
+2025-08-18 18:34:04 - SUCCESS: SIPVO script completed
+2025-08-18 18:34:06 - SIPVO process finished
+2025-08-21 14:01:52 - Starting SIPVO process with args: 
+2025-08-21 14:01:55,341 - INFO - Today (21) is NOT a SIP day: SIPVO skipping trade execution.
+2025-08-21 14:01:55 - SUCCESS: SIPVO script completed
+2025-08-21 14:01:57 - SIPVO process finished
+2025-08-26 12:00:00 - Starting SIPVO process with args: 
+2025-08-26 12:00:02,888 - INFO - Today (26) is NOT a SIP day: SIPVO skipping trade execution.
+2025-08-26 12:00:03 - SUCCESS: SIPVO script completed
+2025-08-26 12:00:05 - SIPVO process finished
+2025-08-29 00:40:13 - Starting SIPVO process with args: 
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/TR3X/sipvo.py", line 47, in load_config
+    config = json.load(f)
+             ^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/json/decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 2 column 3 (char 4)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/data/data/com.termux/files/home/TR3X/sipvo.py", line 420, in <module>
+    main()
+  File "/data/data/com.termux/files/home/TR3X/sipvo.py", line 413, in main
+    sipvo = SIPVOManager(config_path=args.config, dry_run=args.test)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/TR3X/sipvo.py", line 39, in __init__
+    self.config = self.load_config()
+                  ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/TR3X/sipvo.py", line 65, in load_config
+    raise SIPVOError(f"Invalid JSON in config: {e}")
+SIPVOError: Invalid JSON in config: Expecting property name enclosed in double quotes: line 2 column 3 (char 4)
+2025-08-29 00:40:16 - ERROR: SIPVO script failed
+2025-08-29 11:20:00 - Starting SIPVO process with args: 
+2025-08-29 11:20:09,778 - INFO - Cash available: ₹0.00
+2025-08-29 11:20:09,779 - INFO - LiquidBees value: ₹0.00
+2025-08-29 11:20:09,780 - INFO - Total funds available for SIP: ₹0.00
+2025-08-29 11:20:09,780 - WARNING - ==================================================
+2025-08-29 11:20:09,780 - WARNING - Insufficient liquid funds for SIP by approx ₹35000.00
+2025-08-29 11:20:09,780 - WARNING - Please prepare EDIS authorization accordingly.
+2025-08-29 11:20:09,780 - WARNING - ==================================================
+2025-08-29 11:20:09,790 - INFO - Retrying 4 pending orders...
+2025-08-29 11:20:09,790 - ERROR - Order placement failed for NIFTYBEES: NorenApi.place_order() missing 1 required positional argument: 'discloseqty'
+2025-08-29 11:20:09,793 - WARNING - Retry failed: NIFTYBEES 59.0@276.93 - FAILED
+2025-08-29 11:20:09,793 - ERROR - Order placement failed for JUNIORBEES: NorenApi.place_order() missing 1 required positional argument: 'discloseqty'
+2025-08-29 11:20:09,794 - WARNING - Retry failed: JUNIORBEES 6.0@709.47 - FAILED
+2025-08-29 11:20:09,794 - ERROR - Order placement failed for GOLDBEES: NorenApi.place_order() missing 1 required positional argument: 'discloseqty'
+2025-08-29 11:20:09,794 - WARNING - Retry failed: GOLDBEES 35.0@84.42 - FAILED
+2025-08-29 11:20:09,794 - ERROR - Order placement failed for GILT5YBEES: NorenApi.place_order() missing 1 required positional argument: 'discloseqty'
+2025-08-29 11:20:09,795 - WARNING - Retry failed: GILT5YBEES 96.0@62.3 - FAILED
+2025-08-29 11:20:12,481 - WARNING - After retries, still insufficient funds: ₹0.00. Skipping new SIP orders.
+2025-08-29 11:20:12 - SUCCESS: SIPVO script completed
+2025-08-29 11:20:14 - SIPVO process finished
+2025-09-01 11:20:00 - Starting SIPVO process with args: 
+2025-09-01 11:20:02,744 - INFO - Today (1) is NOT a SIP day: SIPVO skipping trade execution.
+2025-09-01 11:20:02 - SUCCESS: SIPVO script completed
+2025-09-01 11:20:05 - SIPVO process finished
+2025-09-08 11:20:00 - Starting SIPVO process with args: 
+2025-09-08 11:20:03,746 - INFO - Today (8) is NOT a SIP day: SIPVO skipping trade execution.
+2025-09-08 11:20:03 - SUCCESS: SIPVO script completed
+2025-09-08 11:20:06 - SIPVO process finished
+2025-09-10 11:20:00 - Starting SIPVO process with args: 
+2025-09-10 11:20:03,401 - INFO - Today (10) is NOT a SIP day: SIPVO skipping trade execution.
+2025-09-10 11:20:03 - SUCCESS: SIPVO script completed
+2025-09-10 11:20:06 - SIPVO process finished
+2025-09-11 15:12:02 - Starting SIPVO process with args: 
+2025-09-11 15:12:03,505 - INFO - Today (11) is NOT a SIP day: SIPVO skipping trade execution.
+2025-09-11 15:12:03 - SUCCESS: SIPVO script completed
+2025-09-11 15:12:03 - SIPVO process finished
+2025-09-12 11:20:00 - Starting SIPVO process with args: 
+2025-09-12 11:20:03,329 - INFO - Today (12) is NOT a SIP day: SIPVO skipping trade execution.
+2025-09-12 11:20:03 - SUCCESS: SIPVO script completed
+2025-09-12 11:20:06 - SIPVO process finished
