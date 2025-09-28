@@ -236,3 +236,23 @@
 2025-09-12 16:00:03,686 - INFO - Successfully retrieved limits and holdings data
 2025-09-12 16:00:03,687 - INFO - Cash available: ₹0.00
 2025-09-12 16:00:03,687 - INFO - Total net worth calculated: ₹0.00
+2025-09-15 16:00:03,422 - INFO - API session established successfully
+2025-09-15 16:00:03,541 - INFO - Successfully retrieved limits and holdings data
+2025-09-15 16:00:03,541 - INFO - Cash available: ₹0.00
+2025-09-15 16:00:03,542 - INFO - Total net worth calculated: ₹0.00
+2025-09-17 16:00:06,259 - INFO - API session established successfully
+2025-09-17 16:00:06,601 - INFO - Successfully retrieved limits and holdings data
+2025-09-17 16:00:06,601 - INFO - Cash available: ₹0.00
+2025-09-17 16:00:06,601 - INFO - Total net worth calculated: ₹0.00
+2025-09-18 16:00:03,271 - INFO - API session established successfully
+2025-09-18 16:00:03,499 - INFO - Successfully retrieved limits and holdings data
+2025-09-18 16:00:03,500 - INFO - Cash available: ₹0.00
+2025-09-18 16:00:03,500 - INFO - Total net worth calculated: ₹0.00
+2025-09-27 16:00:02,668 - INFO - API session established successfully
+2025-09-27 16:00:03,015 - INFO - Successfully retrieved limits and holdings data
+2025-09-27 16:00:03,016 - INFO - Cash available: ₹7371.88
+2025-09-27 16:00:03,130 - INFO - GOLDBEES-EQ: 35.0 × ₹94.27 = ₹3299.45
+2025-09-27 16:00:03,234 - INFO - LIQUIDBEES-EQ: 200.0 × ₹1000.0 = ₹200000.00
+2025-09-27 16:00:03,403 - INFO - NIFTYBEES-EQ: 59.0 × ₹283.48 = ₹16725.32
+2025-09-27 16:00:03,510 - INFO - JUNIORBEES-EQ: 6.0 × ₹726.9 = ₹4361.40
+2025-09-27 16:00:03,510 - INFO - Total net worth calculated: ₹231758.05

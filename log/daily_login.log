@@ -24899,3 +24899,115 @@ Total MWS Tokens: 53
 }
 2025-09-11 15:12:10 - ERROR - tr3x - ❌ API returned None. Possible causes: Invalid credentials, API downtime, or connectivity issues.
 [2025-09-11 15:12:11] ERROR: Login failed
+[2025-09-15 09:15:55] INFO: Starting login
+2025-09-15 09:15:57 - INFO - tr3x - 🚀 Starting Shoonya API authentication...
+2025-09-15 09:15:57 - INFO - tr3x - ✅ Credentials loaded successfully.
+2025-09-15 09:15:57 - INFO - tr3x - 🔄 Attempting to authenticate with Shoonya API...
+2025-09-15 09:15:57 - DEBUG - tr3x - 📤 API Request Payload: {
+  "userid": "FA402302",
+  "password": "******",
+  "twoFA": "******",
+  "vendor_code": "FA402302_U",
+  "api_secret": "******",
+  "imei": "abc1234"
+}
+2025-09-15 09:15:57 - ERROR - tr3x - ❌ API returned None. Possible causes: Invalid credentials, API downtime, or connectivity issues.
+[2025-09-15 09:15:58] ERROR: Login failed
+[2025-09-17 21:47:37] INFO: Starting login
+2025-09-17 21:47:40 - INFO - tr3x - 🚀 Starting Shoonya API authentication...
+2025-09-17 21:47:40 - INFO - tr3x - ✅ Credentials loaded successfully.
+2025-09-17 21:47:40 - INFO - tr3x - 🔄 Attempting to authenticate with Shoonya API...
+2025-09-17 21:47:40 - DEBUG - tr3x - 📤 API Request Payload: {
+  "userid": "FA402302",
+  "password": "******",
+  "twoFA": "******",
+  "vendor_code": "FA402302_U",
+  "api_secret": "******",
+  "imei": "abc1234"
+}
+2025-09-17 21:47:41 - ERROR - tr3x - ❌ API returned None. Possible causes: Invalid credentials, API downtime, or connectivity issues.
+[2025-09-17 21:47:41] ERROR: Login failed
+[2025-09-18 09:03:00] INFO: Starting login
+2025-09-18 09:03:02 - INFO - tr3x - 🚀 Starting Shoonya API authentication...
+2025-09-18 09:03:02 - INFO - tr3x - ✅ Credentials loaded successfully.
+2025-09-18 09:03:02 - INFO - tr3x - 🔄 Attempting to authenticate with Shoonya API...
+2025-09-18 09:03:02 - DEBUG - tr3x - 📤 API Request Payload: {
+  "userid": "FA402302",
+  "password": "******",
+  "twoFA": "******",
+  "vendor_code": "FA402302_U",
+  "api_secret": "******",
+  "imei": "abc1234"
+}
+2025-09-18 09:03:02 - ERROR - tr3x - ❌ Exception during login: HTTPSConnectionPool(host='api.shoonya.com', port=443): Max retries exceeded with url: /NorenWClientTP//QuickAuth (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b76aae0f0>: Failed to resolve 'api.shoonya.com' ([Errno 7] No address associated with hostname)"))
+2025-09-18 09:03:02 - ERROR - tr3x - Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/socket.py", line 978, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 7] No address associated with hostname
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x7b76aae0f0>: Failed to resolve 'api.shoonya.com' ([Errno 7] No address associated with hostname)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.shoonya.com', port=443): Max retries exceeded with url: /NorenWClientTP//QuickAuth (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b76aae0f0>: Failed to resolve 'api.shoonya.com' ([Errno 7] No address associated with hostname)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/TR3X/config/files/login.py", line 88, in login_to_shoonya
+    response = api.login(
+               ^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/NorenRestApiPy/NorenApi.py", line 255, in login
+    res = requests.post(url, data=payload)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.shoonya.com', port=443): Max retries exceeded with url: /NorenWClientTP//QuickAuth (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b76aae0f0>: Failed to resolve 'api.shoonya.com' ([Errno 7] No address associated with hostname)"))
+
+[2025-09-18 09:03:03] ERROR: Login failed

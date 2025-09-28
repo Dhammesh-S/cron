@@ -87,3 +87,11 @@ SIPVOError: Invalid JSON in config: Expecting property name enclosed in double q
 2025-09-12 11:20:03,329 - INFO - Today (12) is NOT a SIP day: SIPVO skipping trade execution.
 2025-09-12 11:20:03 - SUCCESS: SIPVO script completed
 2025-09-12 11:20:06 - SIPVO process finished
+2025-09-15 11:20:00 - Starting SIPVO process with args: 
+2025-09-15 11:20:03,561 - INFO - Today (15) is NOT a SIP day: SIPVO skipping trade execution.
+2025-09-15 11:20:03 - SUCCESS: SIPVO script completed
+2025-09-15 11:20:07 - SIPVO process finished
+2025-09-18 11:20:00 - Starting SIPVO process with args: 
+2025-09-18 11:20:02,599 - INFO - Today (18) is NOT a SIP day: SIPVO skipping trade execution.
+2025-09-18 11:20:02 - SUCCESS: SIPVO script completed
+2025-09-18 11:20:05 - SIPVO process finished

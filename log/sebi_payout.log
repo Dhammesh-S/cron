@@ -239,3 +239,14 @@ Reason: Outside buy window
 ----------------------------------------
 2025-08-31 15:00:03 - SUCCESS: payout script completed
 2025-08-31 15:00:06 - SEBI payout process finished
+2025-09-27 15:00:00 - Starting SEBI payout process...
+Date: 2025-09-27
+Decision: INFO
+Reason: Pending: [], Bought: []
+----------------------------------------
+Date: 2025-09-27
+Decision: SKIP
+Reason: Outside buy window
+----------------------------------------
+2025-09-27 15:00:03 - SUCCESS: payout script completed
+2025-09-27 15:00:05 - SEBI payout process finished
