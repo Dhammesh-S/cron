@@ -1,0 +1,39 @@
+# Logs - never commit sensitive log data
+*.log
+log/
+logs/
+
+# Environment files - contain API keys and credentials
+.env
+.env.*
+*.env
+
+# Backup files
+*.bak
+*.backup
+*backup*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE files
+.vscode/
+.idea/
+
+# Session tokens and sensitive data
+.shoonya_session.json
+session_token
+*.token
+*.key
